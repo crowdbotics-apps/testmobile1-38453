@@ -9,7 +9,7 @@ const Untitled2 = ({
 }) => {
   return <SafeAreaView style={styles.safeArea}>
         
-    <View style={styles.UAsmEBAo} onPress={() => navigation.navigation.navigate("undefined", {})}><Pressable onPress={() => navigation.navigation.navigate("Untitled1", {})}><View style={styles.UMwHEUhC} onPress={() => navigation.navigation.navigate("undefined", {})}><Text style={styles.AFAUcFgP}>Test</Text></View></Pressable></View></SafeAreaView>;
+    <View style={styles.UAsmEBAo} onPress={() => navigation.navigation.navigate("undefined", {})}><Pressable onPress={() => navigation.navigation.navigate("Untitled1", {})}><View style={styles.UMwHEUhC} onPress={() => navigation.navigation.navigate("detail", {})}><Text style={styles.AFAUcFgP}>Test 1</Text></View></Pressable></View></SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
