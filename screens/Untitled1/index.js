@@ -1,17 +1,10 @@
-import { FlatList } from "react-native";
-import { TextInput } from "react-native";
 import React from "react";
-import { View, StyleSheet, ScrollView, SafeAreaView } from "react-native";
+import { StyleSheet, SafeAreaView } from "react-native";
 
 const Untitled1 = () => {
   return <SafeAreaView style={styles.safeArea}>
-        <ScrollView contentContainerStyle={{
-      backgroundColor: '#f0f0f1',
-      padding: 10,
-      position: 'relative',
-      flex: 1
-    }}><TextInput style={styles.qSJuBKzA}></TextInput><FlatList style={styles.nUDCzJkL} renderItem={() => <View style={styles.ircfaabt}><View style={styles.imdGpjRG}></View></View>} ItemSeparatorComponent={() => <View style={styles.vJzWnqVb}><View style={styles.khoIyCMH} /></View>} data={[1, 2, 3]} keyExtractor={item => item.toString()}></FlatList></ScrollView>
-    <FlatList renderItem={() => <View style={styles.GqKitBEm}></View>} ItemSeparatorComponent={() => <View style={styles.tbKRAWfk} />} data={[1, 2, 3]} keyExtractor={item => item.toString()} style={styles.xIZMNiRf}></FlatList></SafeAreaView>;
+        
+    </SafeAreaView>;
 };
 
 const styles = StyleSheet.create({

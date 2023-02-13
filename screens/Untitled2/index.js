@@ -1,15 +1,11 @@
-import { Text } from "react-native";
-import { Pressable } from "react-native";
-import { View } from "react-native";
 import React from "react";
 import { StyleSheet, SafeAreaView } from "react-native";
 
-const Untitled2 = ({
+const Home = ({
   navigation
 }) => {
   return <SafeAreaView style={styles.safeArea}>
-        
-    <View style={styles.UAsmEBAo} onPress={() => navigation.navigation.navigate("undefined", {})}><Pressable onPress={() => navigation.navigation.navigate("Untitled1", {})}><View style={styles.UMwHEUhC} onPress={() => navigation.navigation.navigate("detail", {})}><Text style={styles.AFAUcFgP}>Test 1</Text></View></Pressable></View></SafeAreaView>;
+  </SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
@@ -55,7 +51,7 @@ const styles = StyleSheet.create({
     position: "absolute",
     left: 41,
     fontWeight: "700",
-    top: 0
+    top: 5
   }
 });
-export default Untitled2;
+export default Home;
